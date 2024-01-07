@@ -13,7 +13,6 @@ body {
 }
 .section-greeting {
   color: #f00;
-  text-align: center;
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
@@ -21,7 +20,6 @@ body {
 }
 .section-title {
   color: #070211;
-  text-align: center;
   font-family: Inter;
   font-size: 48px;
   font-weight: 700;
@@ -93,6 +91,12 @@ body {
   line-height: normal;
   margin: 120px 0 48px 0;
 }
+#categories h2 {
+  text-align: center;
+}
+#categories h4 {
+  text-align: center;
+}
 .categories-img {
   width: 802px;
   height: 500px;
@@ -121,7 +125,7 @@ body {
   left: 0;
   z-index: -1;
   opacity: 0.6;
-  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
 }
 .midnight-content {
   width: 60%;
@@ -141,4 +145,60 @@ body {
   font-weight: 400;
   line-height: 30px;
   margin: 10px 0 48px 0;
+}
+/* new-best-offer css styles */
+.new-best-offer {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 98px;
+  margin: 130px 0;
+}
+.coming-soon {
+  width: 33%;
+  padding-top: 50px;
+}
+.coming-soon p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  padding-top: 22px;
+}
+.best-offer-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid rebeccapurple;
+  border-radius: 50%;
+}
+.best-offer-img img {
+  border: 30px solid white;
+  border-radius: 50%;
+  width: 364.844px;
+  height: 364.844px;
+}
+.new-years {
+  width: 33%;
+  padding-top: 50px;
+}
+.new-years h1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+}
+.new-years p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  padding: 16px 0 43px 0;
+}
+.new-years img {
+  width: 140px;
+  height: 140px;
 }
