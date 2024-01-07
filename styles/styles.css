@@ -202,3 +202,38 @@ body {
   width: 140px;
   height: 140px;
 }
+
+/* our-awesome-portfolio css styles */
+.new-best-offer{
+  margin: 140px 0;
+}
+.awesome-content {
+  width: 60%;
+}
+.awesome-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  padding: 22px 0 48px 0;
+}
+
+.awesome-portfolio-items {
+  display: flex;
+}
+
+.awesome-portfolio-items-img img {
+  width: 400px;
+  height: 450px;
+  margin-right: 34px;
+  margin-bottom: 34px;
+  border-radius: 25px;
+  transition: .3s;
+  
+}
+
+.awesome-portfolio-items-img img:hover {
+  border: 3px solid rgb(149, 111, 186);
+  box-shadow: 3px 3px 4px rgb(212, 209, 216);
+}
