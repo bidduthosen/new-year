@@ -283,6 +283,44 @@ body {
   background: #fff;
   border-radius: 25px 0 0 25px;
 }
-.subscribe-btn{
+.subscribe-btn {
   border-radius: 0 25px 25px 0;
+}
+
+/* footer section css style */
+
+#main-footer {
+  background-color: black;
+  margin: 120px 0 0 0;
+}
+.footer-contract {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0 48px 0;
+}
+.contract-adress {
+  color: white;
+}
+.call,
+.website {
+  display: flex;
+  color: white;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-links img {
+  width: 54px;
+  height: 54px;
+  margin: 48px 24px 48px 0;
+}
+
+.copyright{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 48px 0 100px 0;
 }
