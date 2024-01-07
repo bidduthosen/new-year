@@ -204,7 +204,7 @@ body {
 }
 
 /* our-awesome-portfolio css styles */
-.new-best-offer{
+.new-best-offer {
   margin: 140px 0;
 }
 .awesome-content {
@@ -229,11 +229,60 @@ body {
   margin-right: 34px;
   margin-bottom: 34px;
   border-radius: 25px;
-  transition: .3s;
-  
+  transition: 0.3s;
 }
 
 .awesome-portfolio-items-img img:hover {
   border: 3px solid rgb(149, 111, 186);
   box-shadow: 3px 3px 4px rgb(212, 209, 216);
+}
+/* Subscribe Newsletter css style */
+#subscribe {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 616px;
+  margin-top: 60px;
+}
+.subscribe-items {
+  width: 60%;
+  text-align: center;
+}
+.subscribe-items img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 40px;
+}
+.subscribe-items h1 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.subscribe-items p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 22px 0 40px 0;
+}
+.subscribe-items input[type="email"] {
+  color: rgba(7, 2, 17, 0.3);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  padding: 16px 32px;
+  width: 400px;
+  border: none;
+  background: #fff;
+  border-radius: 25px 0 0 25px;
+}
+.subscribe-btn{
+  border-radius: 0 25px 25px 0;
 }
