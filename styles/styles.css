@@ -38,8 +38,9 @@ body {
   padding: 16px 32px;
   border: none;
 }
-/* Banner section styles */
 
+
+/* Banner section styles */
 .banner {
   background-image: url("../images/Banner\ Image.png");
   height: 600px;
@@ -79,6 +80,7 @@ body {
   line-height: 95px;
 }
 
+
 /* categories part styles */
 #categories {
   margin: 40px 0;
@@ -103,6 +105,7 @@ body {
   margin: 0 auto;
   margin-top: 48px;
 }
+
 
 /* midnight part css styles */
 .midnight {
@@ -154,8 +157,9 @@ body {
   height: 464px;
 }
 
-/* hotel css styles */
 
+
+/* hotel css styles */
 #hotel {
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
@@ -238,6 +242,74 @@ body {
   height: 140px;
 }
 
+
+/* holidays css styles */
+.holidays {
+  margin: 120px 0;
+}
+.holidays-content {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.holidays-content h4 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+}
+.holidays-content h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: normal;
+  margin: 16px 0 28px 0;
+}
+.holidays-content p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.holiday-inner {
+  display: flex;
+}
+.group-75 {
+  width: 674.82px;
+  height: 577.96px;
+  position: relative;
+  left: 115px;
+  top: 220px;
+  z-index: 1;
+}
+.discount {
+  width: 220.048px;
+  height: 220.048px;
+  position: relative;
+  left: 115px;
+  top: 250px;
+  z-index: 1;
+}
+.rectangle-1 {
+  width: 426px;
+  height: 433px;
+  position: static;
+  z-index: -1;
+  margin-top: 150px;
+}
+.rectangle-2 {
+  width: 1320px;
+  height: 229px;
+  position: static;
+  z-index: -1;
+}
+
+
+
 /* our-awesome-portfolio css styles */
 .new-best-offer {
   margin: 140px 0;
@@ -254,11 +326,9 @@ body {
   line-height: 32px;
   padding: 22px 0 48px 0;
 }
-
 .awesome-portfolio-items {
   display: flex;
 }
-
 .awesome-portfolio-items-img img {
   width: 400px;
   height: 450px;
@@ -267,11 +337,13 @@ body {
   border-radius: 25px;
   transition: 0.3s;
 }
-
 .awesome-portfolio-items-img img:hover {
   border: 3px solid rgb(149, 111, 186);
   box-shadow: 3px 3px 4px rgb(212, 209, 216);
 }
+
+
+
 /* Subscribe Newsletter css style */
 #subscribe {
   border-radius: 16px;
@@ -323,6 +395,8 @@ body {
   border-radius: 0 25px 25px 0;
 }
 
+
+
 /* footer section css style */
 
 #main-footer {
@@ -353,10 +427,13 @@ body {
   height: 54px;
   margin: 48px 24px 48px 0;
 }
-
 .copyright {
   display: flex;
   justify-content: space-between;
   color: white;
   padding: 48px 0 100px 10px;
 }
+
+
+
+/* css end */
