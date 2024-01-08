@@ -59,9 +59,9 @@ body {
   bottom: 0;
   left: 0;
   z-index: -1;
-  opacity: 0.6;
+  opacity: 0.4;
 }
-.banner-contain {
+.banner-content {
   width: 70%;
 }
 .banner h3 {
@@ -128,7 +128,7 @@ body {
   background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
 }
 .midnight-content {
-  width: 60%;
+  width: 58%;
 }
 .midnight-content h1 {
   color: #fff;
@@ -146,13 +146,48 @@ body {
   line-height: 30px;
   margin: 10px 0 48px 0;
 }
+.midnight-img {
+  margin-left: 25px;
+}
+.midnight-img img {
+  width: 319px;
+  height: 464px;
+}
+
+/* hotel css styles */
+
+#hotel {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 482px;
+  margin-top: 60px;
+  background-image: linear-gradient(rgba(255, 0, 0, 0.05), white);
+  text-align: center;
+}
+.hotel-content h5 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.hotel-content span {
+  color: #f00;
+}
+.hotel-content button {
+  margin-top: 48px;
+}
 /* new-best-offer css styles */
 .new-best-offer {
   display: flex;
   justify-content: center;
   align-items: start;
   gap: 98px;
-  margin: 130px 0;
+  margin: 100px 0;
+  padding: 0 10px;
 }
 .coming-soon {
   width: 33%;
@@ -209,6 +244,7 @@ body {
 }
 .awesome-content {
   width: 60%;
+  padding-left: 10px;
 }
 .awesome-content p {
   color: rgba(7, 2, 17, 0.6);
@@ -272,7 +308,7 @@ body {
 }
 .subscribe-items input[type="email"] {
   color: rgba(7, 2, 17, 0.3);
-  text-align: center;
+  text-align: start;
   font-family: Inter;
   font-size: 18px;
   font-weight: 400;
@@ -297,7 +333,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 100px 0 48px 0;
+  padding: 100px 0 48px 10px;
 }
 .contract-adress {
   color: white;
@@ -318,9 +354,9 @@ body {
   margin: 48px 24px 48px 0;
 }
 
-.copyright{
+.copyright {
   display: flex;
   justify-content: space-between;
   color: white;
-  padding: 48px 0 100px 0;
+  padding: 48px 0 100px 10px;
 }
