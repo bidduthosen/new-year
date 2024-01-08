@@ -38,7 +38,10 @@ body {
   padding: 16px 32px;
   border: none;
 }
-
+.btn-primary:hover{
+  background: rgba(255, 0, 0, 0.493);
+  color: black;
+}
 
 /* Banner section styles */
 .banner {
